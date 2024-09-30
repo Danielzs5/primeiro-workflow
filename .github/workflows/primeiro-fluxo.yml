@@ -17,8 +17,10 @@ on:
 jobs:
   tarefa1: 
     name: Primeira Tarefa
+    # para executar esta tarefa, somente após a segunda
     runs-on: ubuntu-latest
     #vamos incluir alguns passos para o primeiro job
+  
     steps: 
       - name: Passo 1
         run: echo "Executando o primeiro passo."
